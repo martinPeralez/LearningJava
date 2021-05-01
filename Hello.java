@@ -1,32 +1,57 @@
+import java.util.Scanner; // C# is using instead of import
+
 public class Hello {
     public static void main(String[] args)
     {
          // C# public static void Main(string[]) 
          // Almost the same as C#, but in java Main is lower case and string is uppercase
-        System.out.println("Hello World"); 
+        // System.out.println("Hello World"); 
         // C# is Console.WriteLine("Hello World"); or System.Console.WriteLine("Hello World");
-        System.out.println("My name is Martin");
+        // System.out.println("My name is Martin");
 
         // Comments are the same.
 
         // Data types
-        //Boolean (true or false), Byte (-128 to 127), Char (characters), short (-32768 to 32767), Int (-2^31 to 2^31-1), Long (-2^63 to 2^62-1), Float, Double, 
+        // Boolean (true or false), Byte (-128 to 127), Char (characters), short (-32768 to 32767), Int (-2^31 to 2^31-1), Long (-2^63 to 2^62-1), Float, Double, 
         
-        //Declaration and Initialization are the same Syntax in C#
-        char var1 = 'h'; // C# char var1 = 'h';
-        System.out.println(var1);
+        // Declaration and Initialization are the same Syntax in C#
+        // char var1 = 'h'; // C# char var1 = 'h';
+        // System.out.println(var1);
         
-        String var2 = "Hi my name is XYZ."; //C# string var2 = "Hi my name is XYZ."; string is lowercase in C#
-        System.out.println(var2);
+        // String var2 = "Hi my name is XYZ."; //C# string var2 = "Hi my name is XYZ."; string is lowercase in C#
+        // System.out.println(var2);
 
-        boolean var3 = false; // C# bool var3 = false; in C# boolean is bool
-        System.out.println(var3);
+        // boolean var3 = false; // C# bool var3 = false; in C# boolean is bool
+        // System.out.println(var3);
 
-        int var4 = 900; // C# int var4 = 900;
-        System.out.println(var4);
+        // int var4 = 900; // C# int var4 = 900;
+        // System.out.println(var4);
 
-        double var5 = 1.2345; // C# double var5 = 1.2345;
-        System.out.println(var5);
-                
+        // double var5 = 1.2345; // C# double var5 = 1.2345;
+        // System.out.println(var5);
+        
+        // Basic Math Operations
+        // double var1 = 5;
+        // double var2 = 7;
+        // double var3 = 10;
+        // double var4 = 20;
+
+        // double var5 = var1+var2+var3+var4;
+
+        // System.out.println(var5);
+
+        // String var6 = "Hello I am ";
+        // String var7 = "Years old";
+        // System.out.println(var6 + var5 + " " + var7);
+
+
+        // // User input
+        // String hi = "Hello";
+        // Scanner scan = new Scanner(System.in); // C# string scan = Console.ReadLine();
+        // String txt = scan.next();
+
+        // System.out.println(txt);
+
+        
     }
 }
